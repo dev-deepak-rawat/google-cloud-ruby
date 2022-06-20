@@ -318,7 +318,7 @@ module Google
         # Inserts a new file for the given bucket
         def insert_file bucket_name,
                         source,
-                        path = nil,
+                        path,
                         acl: nil,
                         cache_control: nil,
                         content_disposition: nil,
